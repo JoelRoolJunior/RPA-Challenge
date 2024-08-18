@@ -1,0 +1,23 @@
+# Byte-compiled / optimized /
+__pycache__/
+
+# Distribution / packaging
+env/
+venv/
+.venv/
+build/
+dist/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# logs
+.log
+
+# IntelliJ Idea family of suites
+.idea
+*.iml
+
+# IDE settings
+.vscode/
