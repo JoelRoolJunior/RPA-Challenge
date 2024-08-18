@@ -1,4 +1,4 @@
-<center>
+<div align="center">
 
 # RPA Challenge
 
@@ -8,7 +8,7 @@
 ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=Selenium&logoColor=white)
 ![Openpyxl](https://img.shields.io/badge/Openpyxl-11303d?style=for-the-badge&logo=openpyxl)
 
-</center>
+</div>
 
 ![RPA Challenge](docs/rpa_challenge.png)
 
