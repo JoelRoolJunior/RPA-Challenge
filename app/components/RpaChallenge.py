@@ -12,6 +12,7 @@ class RpachallengeActions:
         self.elements = RpaChallengeElements
 
     def start(self):
+        self.driver.get('https://www.rpachallenge.com/')
         self.driver.find_element(By.XPATH, self.elements.start_button).click()
         
     def first_name(self,content:str):
@@ -38,8 +39,8 @@ class RpachallengeActions:
     def submit_click(self):
         self.driver.find_element(By.XPATH, self.elements.submit).click()
 
-    def goto(self):
-        self.driver.get('https://www.rpachallenge.com/')
+    def get_result(self):
+        return self.driver.find_element(By.XPATH, self.elements.result).text
 
     def inputs(self,
                value_first_name,

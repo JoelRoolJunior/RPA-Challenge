@@ -11,3 +11,8 @@ class RpaChallengeElements:
     email           = '//input[contains(@ng-reflect-name,"Email")]'
     phone           = '//input[contains(@ng-reflect-name,"Phone")]'
     submit          = '//input[@type="submit"]'
+    result          = '//div[@class="message2"]'
+
+class DontPadElements:
+    textarea = '//textarea[@id="text"]'
+    saved = '//p[text()="Saved"]'
